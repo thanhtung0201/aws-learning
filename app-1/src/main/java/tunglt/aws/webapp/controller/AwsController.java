@@ -16,4 +16,9 @@ public class AwsController {
         return "Welcome aws web page of web app";
     }
 
+    @GetMapping
+    public String healthCheck(){
+        return "Healthy";
+    }
+
 }
